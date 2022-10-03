@@ -1,0 +1,2 @@
+max_worker: 15
+proxy_type: 2
