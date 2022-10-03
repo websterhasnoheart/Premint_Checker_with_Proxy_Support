@@ -32,3 +32,5 @@ The original repo : `https://github.com/websterhasnoheart/premint_checker`
 
 ### 5. Warning
 - Premint is busting their asses to eliminate bots, so please use this version instead of the old one to check your raffle results, you could never be careful enough.
+
+![image](https://user-images.githubusercontent.com/66870019/193582588-5eecaddf-21d5-4b16-bb83-b1f61b4f3949.png)
