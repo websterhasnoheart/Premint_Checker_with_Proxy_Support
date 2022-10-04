@@ -63,7 +63,6 @@ class Premint_Checker(webdriver.Chrome):
             self.get_screenshot_as_file("screenshot.png")
             print(e)
 
-
     def display_results(self, table):
         table.add_rows(self.results)
         return self.results
