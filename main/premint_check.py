@@ -36,6 +36,16 @@ class Premint_Checker(webdriver.Chrome):
             },
             'request_storage_base_dir': self.selenium_wire_storage
         }
+        # If your IP type belongs to socks5, adjust your code accordingly
+        
+        # if self.proxy_type == proxy_type_socks5:
+        #     options_seleniumWire = {
+        #         'proxy': {
+        #             'https': f'socks5://{self.username}:{self.password}@{self.host}:{self.port}',
+        #             'http': f'socks5://{self.username}:{self.password}@{self.host}:{self.port}',
+        #         },
+        #         'request_storage_base_dir': self.selenium_wire_storage
+        #     }
         
         super(Premint_Checker, self).__init__(chrome_options=chrome_options, seleniumwire_options=options_seleniumWire, service=ChromeService(ChromeDriverManager().install()))
         self.maximize_window()
