@@ -37,3 +37,4 @@ The original repo : `https://github.com/websterhasnoheart/premint_checker`
 
 ### 6. Update log
 - `04/10/2022` The bot now support both socks5 and http proxy types now
+- `06/11/2022` Implemented a new feature : check raffle stauts by running `status.py` after importing raffle link to `raffle_urls.txt`

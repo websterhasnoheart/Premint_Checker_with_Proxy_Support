@@ -56,3 +56,4 @@ class Premint_Status(webdriver.Chrome):
         table = PrettyTable(field_names=["Index", "Raffle URL", "Status"])
         table.add_rows(self.results)
         print(table)
+        
